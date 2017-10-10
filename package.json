@@ -1,0 +1,25 @@
+{
+  "name": "TimestampMicroservice",
+  "version": "1.0.0",
+  "description": "for solving challenge in freeCodeCamp: https://timestamp-ms.herokuapp.com/",
+  "main": "index.js",
+  "dependencies": {
+    "koa": "^2.3.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/birdca/TimestampMicroservice.git"
+  },
+  "keywords": [],
+  "author": "Ca Chen <kiancaca@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/birdca/TimestampMicroservice/issues"
+  },
+  "homepage": "https://github.com/birdca/TimestampMicroservice#readme"
+}
