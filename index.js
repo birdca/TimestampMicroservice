@@ -5,7 +5,7 @@ const Router = require('koa-router');
 const app    = new Koa();
 const router = new Router();
 
-router.get('/', async ctx => {
+router.get('/', async (ctx) => {
 		await send(ctx, 'views/index.html');
 	})
 	.get('/:timestamp', ctx => {
@@ -13,7 +13,7 @@ router.get('/', async ctx => {
 		let output_natural = null;
 
 		let path = ctx.params.timestamp.replace(/%20/g, ' ');
-
+    let result = null;
 		if (result = Date.parse(path)) {
 			output_unix = result / 1000;
 			output_natural = path;
