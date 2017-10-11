@@ -1,6 +1,9 @@
 {
   "name": "TimestampMicroservice",
   "version": "1.0.0",
+  "engines": {
+    "node": "7.6.0"
+  },
   "description": "for solving challenge in freeCodeCamp: https://timestamp-ms.herokuapp.com/",
   "main": "index.js",
   "dependencies": {
