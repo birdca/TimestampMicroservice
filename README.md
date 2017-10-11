@@ -6,7 +6,7 @@ for solving challenge in freeCodeCamp: [https://timestamp-ms.herokuapp.com/](htt
 > 2) If it does, it returns both the Unix timestamp and the natural language form of that date.
 > 3) If it does not contain a date or Unix timestamp, it returns null for those properties.
 ### Example usage:
-[https://keen-aardvark.glitch.me/December%2015,%202015](https://keen-aardvark.glitch.me/December%2015,%202015)
-[https://keen-aardvark.glitch.me/1450137600](https://keen-aardvark.glitch.me/1450137600)
+- [https://keen-aardvark.glitch.me/December%2015,%202015](https://keen-aardvark.glitch.me/December%2015,%202015)
+- [https://keen-aardvark.glitch.me/1450137600](https://keen-aardvark.glitch.me/1450137600)
 ### Example output:
 `{ "unix": 1450137600, "natural": "December 15, 2015" }`

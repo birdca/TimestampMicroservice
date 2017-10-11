@@ -4,7 +4,9 @@
   "description": "for solving challenge in freeCodeCamp: https://timestamp-ms.herokuapp.com/",
   "main": "index.js",
   "dependencies": {
-    "koa": "^2.3.0"
+    "koa": "^2.3.0",
+    "koa-router": "^7.2.1",
+    "koa-send": "^4.1.1"
   },
   "devDependencies": {},
   "scripts": {
